@@ -25,6 +25,7 @@
       data.push(...response.data.results)
       getTotalPages(data)
       getPageData(1, data)
+      localStorage.setItem('page', '1')
     }).catch((error) => console.log('err'))
 
   function displayDataList(data) {
