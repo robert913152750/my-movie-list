@@ -1,0 +1,17 @@
+.fa {
+  color: #595959;
+  font-size: 20px;
+}
+
+.col-12 {
+  padding: 10px;
+  border-bottom:1px solid #b3b3b3;
+}
+
+.col-8 {
+  padding-top:8px;
+}
+
+.fa:hover {
+  color:#1a1a1a;
+}
